@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+
+
+<VBox prefHeight="599.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="120.0" prefWidth="462.0">
+         <children>
+            <Hyperlink fx:id="fx_exp" onAction="#handleFxExp" style="-fx-font-weight: bold;" text="FX-Experience" textAlignment="JUSTIFY" />
+            <Hyperlink fx:id="jfxtras" onAction="#handleJfxtras" style="-fx-font-weight: bold;" text="JFxtras" />
+            <Hyperlink fx:id="guigarage" onAction="#handleguigarage" style="-fx-font-weight: bold;" text="GUI Garage" />
+         </children>
+      </HBox>
+      <WebView fx:id="webView" prefHeight="700.0" prefWidth="500.0" />
+   </children>
+</VBox>
